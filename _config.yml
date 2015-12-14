@@ -5,14 +5,14 @@ url: "http://example.com" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Joey Kirk
-  avatar: avatar.png
-  gravatar: # Email MD5 hash
+  title: Jeff Minnear
+  avatar: # avatar.png
+  gravatar: 2a762ff94d914369557341cca9761b75
   description: "A website with blog posts and pages" # used by search engines
 
   # Header and footer text
   header_text: >
-     <h1>Designer, Developer, Writer, and Dad.</h1>
+     <h1>Web Developer, Musician, Composer</h1>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
@@ -22,12 +22,12 @@ theme:
   email_address: # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
-  dribbble: "joeykirk"
-  facebook: "joeykirk"
+  dribbble:
+  facebook:
   flickr:
-  github: "madebymunsters/type-theme"
+  github: "jeffminnear"
   google_plus:
-  instagram: "joeykirk"
+  instagram:
   linkedin:  # Full URL
   pinterest:
   reddit:
@@ -35,7 +35,7 @@ theme:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "joeykirk"
+  twitter:
   wordpress:
   youtube:
 
@@ -59,6 +59,7 @@ theme:
 # PAGINATION
 paginate: 5
 paginate_path: "blog/page:num"
+gems: [jekyll-paginate]
 
 # COLLECTIONS
 collections:
