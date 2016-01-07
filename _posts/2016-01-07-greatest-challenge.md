@@ -14,6 +14,6 @@ It was beyond frustrating. I decided this was not the field for me and was ready
 
 My mentor worked with me to identify issues in the text and report them to Bloc so they could be fixed for future students. He helped me through the section so I could accomplish the objectives and move on. He even convinced Bloc to extend my course by a week to make up for the time lost struggling with the flawed material. But most importantly, he gave me the confidence to not only finish the foundation and the required projects, but to go beyond the requirements and build additional, more complex projects.
 
-As I write this, I am 80% of the way through the duration of the course with 133% of the objectives completed. I was almost derailed, but with the much-needed support of my mentor, I not only have new skills that I would never have dreamed of a year ago, but I have a lot more confidence and little less envy.
+As I write this, I am 80% of the way through the duration of the course with 133% of the objectives completed. I was almost derailed, but with the much-needed support of my mentor, I not only have new skills that I would never have dreamed of a year ago, but I have a lot more confidence and maybe even a little less envy.
 
 You know what... You go, Becky! Slay those dragons!
