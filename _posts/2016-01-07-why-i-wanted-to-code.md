@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Why I Wanted to Code
+feature-img: "img/glowing_curves.jpg"
 ---
 
 I've wanted to learn to write code since long before I really knew what code was. I grew up playing shareware games, delighted by the worlds on the screen, but fascinated and intimidated by the magical numbers underneath. Like most people (I think), I envisioned programmers typing endless streams of 1's and 0's like wizards weaving an arcane spell in a dark, forbidden tongue. It was mysterious, and I have always been drawn to mystery.
