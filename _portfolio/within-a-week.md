@@ -3,7 +3,7 @@ layout: post
 title: WithinAWeek
 thumbnail-path: "/img/waw-faker.png"
 short-description: A simple to-do list application
-
+feature-img: "img/geometry.png"
 ---
 
 ###Summary
