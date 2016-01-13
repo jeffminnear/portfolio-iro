@@ -64,6 +64,8 @@ but also actual (simulated) user experience at the highest level.
   click_button "Log in"
 {% endhighlight %}
 
+![Feature Spec](/img/feature_spec_full.gif)
+
 ###Conclusion
 
 I am quite happy with the way WAW turned out. However, I would like to add a more responsive (and attractive) front-end interface, and am currently in the process of embedding JavaScript calls into the applications actions to connect WAW with [Do-Tell](do-tell.html), one of my other student projects.
