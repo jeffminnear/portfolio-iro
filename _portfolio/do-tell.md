@@ -3,11 +3,12 @@ layout: post
 title: Do-Tell
 thumbnail-path: "/img/do-tell-bitwolf.png"
 short-description: An analytics tracker for web apps
+feature-img: "img/rainbow.jpg"
 
 ---
 ###Summary
 
-Do-Tell is an analytics tracker application built in Rails. Users can register their web application and monitor the frequency and distribution of any events they specify.
+Do-Tell is an analytics tracker built in Rails. Users can register their web application and monitor the frequency and distribution of any events they specify.
 
 As a student, I wanted to learn the fundamentals of back-end web development and create a project that could communicate with other applications.
 
