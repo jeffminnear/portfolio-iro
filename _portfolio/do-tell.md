@@ -31,6 +31,14 @@ end
 
 ...
 
+class AddIndexToApplicationsUrl < ActiveRecord::Migration
+  def change
+    add_index(:applications, :url, unique: true)
+  end
+end
+
+...
+
 validates_uniqueness_of :url, message: "already belongs to another application"
 {% endhighlight %}
 
