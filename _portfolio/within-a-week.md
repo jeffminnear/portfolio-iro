@@ -64,7 +64,7 @@ but also actual (simulated) user experience at the highest level.
   click_button "Log in"
 {% endhighlight %}
 
-![Feature Spec](/img/feature_spec_full.gif)
+![Feature Spec](/img/feature_spec_optimized.gif)
 
 ###Conclusion
 
