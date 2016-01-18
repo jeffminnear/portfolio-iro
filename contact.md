@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 feature-img: "img/blue_flash.jpg"
 ---
-There is a problem with the service I use to generate contact forms. In the mean time I can be reached by email through the link below.
+I can be reached by email through the link below.
 
 <a href="mailto:jeffminnear@gmail.com">Contact Me</a>
 
