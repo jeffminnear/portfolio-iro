@@ -9,7 +9,7 @@ For me, and I suspect many others, the greatest barrier to overcoming life's cha
 
 I hate Becky. But she won't let that phase her.
 
-![Becky](/img/becky.jpg)
+![Becky]({{ site.baseurl }}/img/becky.jpg)
 
 For the rest of us, however, there is doubt. And one of my greatest moments of doubt came in the later phases of the foundation portion of [Bloc](https://www.bloc.io)'s 'Rails Web Development' course. We were building a functional clone of [Reddit](https://www.reddit.com/) and up until this point, there had been a steady oscillation of increased challenge and greater accomplishment. Things were making sense, and I was beginning to feel that I was actually cut out for all of this.
 

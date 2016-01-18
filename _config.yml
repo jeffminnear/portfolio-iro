@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "/portfolio-iro" # the subpath of your site, e.g. /blog/
-url: "jeffminnear.github.io" # the base hostname & protocol for your site
+url: "https://jeffminnear.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:

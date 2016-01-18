@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WithinAWeek
-thumbnail-path: "/img/waw-faker.png"
+thumbnail-path: "img/waw-faker.png"
 short-description: A simple to-do list application
 feature-img: "img/geometry.png"
 ---
@@ -18,7 +18,7 @@ To build the application, I utilized several industry-standard gems. I used Devi
 
 Functionality is based around CRUD operations performed on the Goal model both by users through the interface,
 
-![interface](/img/waw-interface.png)
+![interface]({{ site.baseurl }}/img/waw-interface.png)
 
 and a custom rake operation performed once a day via Heroku Scheduler to delete any expired goals.
 
@@ -64,7 +64,7 @@ but also actual (simulated) user experience at the highest level.
   click_button "Log in"
 {% endhighlight %}
 
-![Feature Spec](/img/feature_spec_optimized.gif)
+![Feature Spec]({{ site.baseurl}}/img/feature_spec_optimized.gif)
 
 ###Conclusion
 
