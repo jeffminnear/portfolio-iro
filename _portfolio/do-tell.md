@@ -91,8 +91,6 @@ end
 
 ![Table]({{ site.baseurl }}/img/table.png)
 
-
-
 ###Testing
 
 As with my other applications, I built Do-Tell with Test Driven Development using a combination of low-level unit testing (with RSpec, Factory Girl, and Shoulda)
