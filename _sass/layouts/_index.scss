@@ -14,6 +14,12 @@
 }
 // Post listing
 .posts {
+  h2 {
+    @extend %padding-regular;
+    // padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
   .post-teaser {
     @extend %padding-regular;
     width: 100%;
