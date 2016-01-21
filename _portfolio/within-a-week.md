@@ -25,22 +25,22 @@ and a custom rake operation performed once a day via Heroku Scheduler to delete 
 I decided to add an <strong>urgency</strong> attribute to Goal that changes the color of the entry (from green to orange, and then to red) as time runs out to complete the goal.
 
 {% highlight ruby %}
-  def urgency(goal)
-    time_elapsed_in_days = (Time.now - goal.created_at) / 1.day
-    if time_elapsed_in_days > DANGER_THRESHOLD_IN_DAYS
-      return "danger"
-    elsif time_elapsed_in_days > WARNING_THRESHOLD_IN_DAYS
-      return "warning"
-    else
-      return "ok"
-    end
+def urgency(goal)
+  time_elapsed_in_days = (Time.now - goal.created_at) / 1.day
+  if time_elapsed_in_days > DANGER_THRESHOLD_IN_DAYS
+    return "danger"
+  elsif time_elapsed_in_days > WARNING_THRESHOLD_IN_DAYS
+    return "warning"
+  else
+    return "ok"
   end
+end
 {% endhighlight %}
 
 This is then called by the partial that renders each goal entry, making use of the custom CSS selectors I created.
 
 {% highlight html %}
-  <div class="goal goal-<%= urgency(goal) %>">
+<div class="goal goal-<%= urgency(goal) %>">
 {% endhighlight %}
 
 ###Testing
@@ -48,20 +48,20 @@ This is then called by the partial that renders each goal entry, making use of t
 I used Test Driven Development to build WAW, incorporating several other gems (including RSpec, Capybara, Factory Girl, and Shoulda) to test not only low-level functionality,
 
 {% highlight ruby %}
-  it "assigns the goal with the correct attributes" do
-    post :create, user_id: my_user.id, goal: { name: "do the laundry" }
-    my_goal = my_user.goals.first
-    expect(my_goal.name).to eq("do the laundry")
-  end
+it "assigns the goal with the correct attributes" do
+  post :create, user_id: my_user.id, goal: { name: "do the laundry" }
+  my_goal = my_user.goals.first
+  expect(my_goal.name).to eq("do the laundry")
+end
 {% endhighlight %}
 
 but also actual (simulated) user experience at the highest level.
 
 {% highlight ruby %}
-  visit "/users/sign_in"
-  fill_in "Email", with: user.email
-  fill_in "Password", with: user.password
-  click_button "Log in"
+visit "/users/sign_in"
+fill_in "Email", with: user.email
+fill_in "Password", with: user.password
+click_button "Log in"
 {% endhighlight %}
 
 ![Feature Spec]({{ site.baseurl}}/img/feature_spec_optimized.gif)
