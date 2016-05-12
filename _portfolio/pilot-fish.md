@@ -6,13 +6,13 @@ short-description: A Price Comparison Tool For PC Games
 feature-img: "img/blue_flash.jpg"
 
 ---
-###Summary
+### Summary
 
 Pilot-Fish is a price comparison tool for digital distribution PC games. It exists in two separate forms: a [command-line utility](https://www.npmjs.com/package/pilot-fish) built in Node.js, and a [web app](http://www.pf-app.com) built on the MeteorJS platform. Both versions show the current and regular price of games on four different retail sites.
 
 As a student, I wanted to learn the fundamentals of Node.js module development and publication, as well as build a responsive, fully functional web application that I would actually want to use.
 
-###Development
+### Development
 
 For the command-line version of Pilot-Fish, I used Commander to parse user input and options and structure the overall application. The user calls the application with the `pf` command followed by the title of the game they are searching for as a string. They can optionally provide an integer (the `limit` parameter) to specify the number of results to return from each store.
 
@@ -83,6 +83,6 @@ Meteor.call('titles.insert', results[i].simplifiedTitle);
 
 I made use of the `levenshtein` module, allowing me to calculate each simplified title's similarity to the search query and provide the most relevant results first, and added a 'Sale' switch that displays only items currently on sale or alerts the user if no such item exists in the results.
 
-###Conclusion
+### Conclusion
 
 Pilot-Fish was the culmination of everything I had learned about web development up to that point and I am extremely proud of it. I was able to satisfy all of my initial goals for the project, and even managed to add some bonus functionality such as the autocomplete suggestions mentioned above.

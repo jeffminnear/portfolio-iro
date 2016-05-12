@@ -6,13 +6,13 @@ short-description: A simple to-do list application
 feature-img: "img/geometry.png"
 ---
 
-###Summary
+### Summary
 
 Within-A-Week (WAW) is a self-destructing to-do list application built in Rails. Users can create goals for themselves and then have seven days to complete those goals before they expire.
 
 As a student, I wanted to learn the fundamentals of back-end web development and create a project that people could actually use.
 
-###Development
+### Development
 
 To build the application, I utilized several industry-standard gems. I used Devise to provide users a simple and reliable way to sign up and confirm with an email address, and then sign in to the service. I also used Twitter Bootstrap to style the layout into something that would be familiar and easy to navigate.
 
@@ -43,7 +43,7 @@ This is then called by the partial that renders each goal entry, making use of t
 <div class="goal goal-<%= urgency(goal) %>">
 {% endhighlight %}
 
-###Testing
+### Testing
 
 I used Test Driven Development to build WAW, incorporating several other gems (including RSpec, Capybara, Factory Girl, and Shoulda) to test not only low-level functionality,
 
@@ -66,6 +66,6 @@ click_button "Log in"
 
 ![Feature Spec]({{ site.baseurl}}/img/feature_spec_optimized.gif)
 
-###Conclusion
+### Conclusion
 
 I am quite happy with the way WAW turned out. However, I would like to add a more responsive (and attractive) front-end interface, and am currently in the process of embedding JavaScript calls into the applications actions to connect WAW with [Do-Tell](do-tell.html), one of my other student projects.

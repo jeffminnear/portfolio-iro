@@ -6,13 +6,13 @@ short-description: An analytics tracker for web apps
 feature-img: "img/rainbow.jpg"
 
 ---
-###Summary
+### Summary
 
 Do-Tell is an analytics tracker built in Rails. Users can register their web application and monitor the frequency and distribution of any events they specify.
 
 As a student, I wanted to learn the fundamentals of back-end web development and create a project that could communicate with other applications.
 
-###Development
+### Development
 
 I used Devise for authentication of users, and then allowed them to register their applications through a custom controller by specifying a name and unique URL.
 
@@ -91,7 +91,7 @@ end
 
 ![Table]({{ site.baseurl }}/img/table.png)
 
-###Testing
+### Testing
 
 As with my other applications, I built Do-Tell with Test Driven Development using a combination of low-level unit testing (with RSpec, Factory Girl, and Shoulda)
 
@@ -118,6 +118,6 @@ fill_in "Url", with: "https://mynewapp.example.com"
 click_button "Save"
 {% endhighlight %}
 
-###Conclusion
+### Conclusion
 
 I think I achieved everything I set out to do with Do-Tell. I was even able to connect it to [Within-A-Week](within-a-week.html), my to-do list application, to track user registrations and the creation and completion of goals.
